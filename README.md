@@ -160,3 +160,7 @@ konzult/
 - Demo company names, testimonials and figures are fictional placeholders. Replace them before launch.
 - No stock photography is bundled, so there are no image licences to clear.
 
+## 11. Changelog
+
+### 1.0.0
+- Initial release: native homepage, nine sections, Elementor starter template, full inner-page set, motion layer, Customizer options, theme.json.
