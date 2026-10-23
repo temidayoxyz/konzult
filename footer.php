@@ -83,4 +83,15 @@ $konzult_social = konzult_social_profiles();
 			<?php endif; ?>
 		</div>
 
-		
+		<div class="k-footer__wordmark" aria-hidden="true"><?php echo esc_html( get_bloginfo( 'name', 'display' ) ); ?></div>
+
+		<div class="k-footer__bottom">
+			<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo esc_html( konzult_option( 'footer_copyright' ) ); ?></p>
+			<p><?php esc_html_e( 'Strategy · Transformation · Leadership', 'konzult' ); ?></p>
+		</div>
+	</div>
+</footer>
+
+<?php wp_footer(); ?>
+</body>
+</html>
