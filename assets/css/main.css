@@ -1525,3 +1525,52 @@ hr {
 	height: auto;
 }
 
+/* --------------------------------------------------------------------------
+   18. Footer
+   -------------------------------------------------------------------------- */
+
+.k-footer {
+	padding-top: clamp(3.25rem, 6vw, 5.5rem);
+	background: var(--k-ink);
+	color: rgba(246, 243, 236, 0.66);
+}
+
+.k-footer .k-logo {
+	color: var(--k-paper);
+}
+
+.k-footer__grid {
+	display: grid;
+	grid-template-columns: 1.05fr 1.35fr;
+	gap: clamp(2.5rem, 6vw, 6rem);
+	padding-bottom: clamp(3rem, 5vw, 4.5rem);
+	border-bottom: 1px solid var(--k-line-light);
+}
+
+.k-footer__about {
+	max-width: 38ch;
+	margin: 1.5rem 0 2rem;
+	font-size: 0.9375rem;
+	line-height: 1.7;
+}
+
+.k-footer__columns {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+}
+
+.k-footer__column {
+	min-width: 0;
+}
+
+.k-footer__title {
+	margin: 0 0 1.2rem;
+	color: rgba(246, 243, 236, 0.4);
+	font-family: var(--k-font-sans);
+	font-size: 0.6875rem;
+	font-weight: 500;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
