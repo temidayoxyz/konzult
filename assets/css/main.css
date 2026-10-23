@@ -1203,3 +1203,60 @@ hr {
 	text-transform: uppercase;
 }
 
+/* --------------------------------------------------------------------------
+   14. Process
+   -------------------------------------------------------------------------- */
+
+.k-process__grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: clamp(1.5rem, 3.5vw, 3rem);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.k-step {
+	position: relative;
+	padding-top: 1.75rem;
+	border-top: 1px solid var(--k-line);
+}
+
+.k-step__num {
+	display: block;
+	margin-bottom: 1.5rem;
+	color: transparent;
+	font-family: var(--k-font-display);
+	font-size: clamp(3.2rem, 5.5vw, 4.8rem);
+	line-height: 0.8;
+	letter-spacing: -0.04em;
+	-webkit-text-stroke: 1px var(--k-line-strong);
+}
+
+@supports not (-webkit-text-stroke: 1px black) {
+	.k-step__num {
+		color: var(--k-paper-3);
+	}
+}
+
+.k-step__title {
+	margin: 0 0 0.75rem;
+	font-size: clamp(1.5rem, 2.2vw, 1.9rem);
+	letter-spacing: -0.02em;
+}
+
+.k-step__desc {
+	max-width: 42ch;
+	margin: 0 0 1.5rem;
+	color: var(--k-muted);
+	font-size: 0.9375rem;
+	line-height: 1.65;
+}
+
+.k-step__time {
+	color: var(--k-warm);
+	font-size: 0.6875rem;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+
