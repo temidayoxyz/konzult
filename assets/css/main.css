@@ -258,3 +258,88 @@ hr {
 	transform: none;
 }
 
+/* --------------------------------------------------------------------------
+   5. Typography primitives
+   -------------------------------------------------------------------------- */
+
+.k-eyebrow {
+	display: flex;
+	align-items: center;
+	gap: 0.9rem;
+	margin: 0 0 2rem;
+	color: var(--k-muted);
+	font-size: 0.75rem;
+	font-weight: 500;
+	letter-spacing: 0.14em;
+	line-height: 1.3;
+	text-transform: uppercase;
+}
+
+.k-eyebrow__index {
+	color: var(--k-ink);
+	opacity: 0.5;
+	font-variant-numeric: tabular-nums;
+}
+
+.k-eyebrow__line {
+	flex: none;
+	width: 38px;
+	height: 1px;
+	background: currentColor;
+	opacity: 0.4;
+}
+
+.k-eyebrow--light {
+	color: rgba(246, 243, 236, 0.68);
+}
+
+.k-eyebrow--light .k-eyebrow__index {
+	color: var(--k-paper);
+	opacity: 0.9;
+}
+
+.k-h2 {
+	margin: 0 0 1.1rem;
+	font-family: var(--k-font-display);
+	font-size: clamp(2.35rem, 4.4vw, 4rem);
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: -0.032em;
+}
+
+.k-lead {
+	max-width: 54ch;
+	margin: 0;
+	color: var(--k-muted);
+	font-size: 1.0625rem;
+	line-height: 1.65;
+}
+
+.k-meta {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.6rem;
+	color: var(--k-muted);
+	font-size: 0.8125rem;
+	letter-spacing: 0.02em;
+}
+
+.k-meta a {
+	border-bottom: 1px solid var(--k-line);
+	transition: color 0.3s, border-color 0.3s;
+}
+
+.k-meta a:hover {
+	color: var(--k-accent);
+	border-color: currentColor;
+}
+
+.k-meta__sep {
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	background: currentColor;
+	opacity: 0.45;
+}
+
