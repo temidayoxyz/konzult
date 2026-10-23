@@ -86,7 +86,7 @@ add_action( 'wp_head', 'konzult_preload_fonts', 2 );
  * Add a tiny class to <html> before paint so reveal animations never flash.
  */
 function konzult_js_flag() {
-	echo '<script>document.documentElement.classList.add("k-js");</script>' . "\n";
+	echo '<script>document.documentElement.classList.add("k-js");if(window.location.search.indexOf("elementor-preview=")!==-1){document.documentElement.classList.add("k-editor");}</script>' . "\n";
 }
 add_action( 'wp_head', 'konzult_js_flag', 1 );
 
