@@ -80,3 +80,19 @@ The **Insights** section only appears once you publish posts. The **stats** coun
 To use the normal blog index as your homepage instead:
 **Customize → Homepage settings →** uncheck the demo showcase (or set a static front page with your own content).
 
+## 5. Design system
+
+| Token | Value |
+|---|---|
+| Ink | `#12150F` |
+| Paper | `#F6F3EC` |
+| Paper deep | `#EDE8DC` |
+| Pine (accent) | `#1E4A3A` |
+| Sienna | `#B9814A` |
+| Display type | Instrument Serif |
+| UI / body type | Inter (variable) |
+
+All tokens live at the top of `assets/css/main.css` as custom properties. Fonts are self-hosted in `assets/fonts/` (latin subset, woff2) — no Google Fonts request, no consent banner.
+
+`theme.json` exposes the same palette and type scale to the block editor.
+
