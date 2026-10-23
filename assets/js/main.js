@@ -12,6 +12,19 @@
 	const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 	const hasIO = 'IntersectionObserver' in window;
 
+	const isElementorEditor =
+		document.documentElement.classList.contains('k-editor') ||
+		document.body.classList.contains('elementor-editor-active') ||
+		(window.elementorFrontend &&
+			typeof window.elementorFrontend.isEditMode === 'function' &&
+			window.elementorFrontend.isEditMode());
+
+	if (isElementorEditor) {
+		document.documentElement.classList.add('k-editor');
+		document.querySelectorAll('[data-reveal]').forEach((el) => el.classList.add('is-in'));
+		return;
+	}
+
 	/* ---------------------------------------------------------------------
 	 * Sticky header state
 	 * ------------------------------------------------------------------ */
