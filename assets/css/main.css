@@ -2270,3 +2270,48 @@ hr {
 	display: block;
 }
 
+/* --------------------------------------------------------------------------
+   20. Elementor and editor compatibility
+   -------------------------------------------------------------------------- */
+
+.k-elementor-page .elementor-section.elementor-section-boxed > .elementor-container {
+	max-width: var(--k-container);
+}
+
+.k-built-with-elementor .k-main {
+	min-height: 40vh;
+}
+
+.elementor-kit-1 .elementor-widget-text-editor,
+.elementor-widget-text-editor {
+	color: inherit;
+}
+
+/* Widgets dropped into footer columns */
+
+.k-widget {
+	margin-bottom: 1.75rem;
+}
+
+.k-widget__title {
+	margin: 0 0 1rem;
+	color: rgba(246, 243, 236, 0.4);
+	font-family: var(--k-font-sans);
+	font-size: 0.6875rem;
+	font-weight: 500;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.k-widget ul {
+	display: grid;
+	gap: 0.65rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.k-widget a:hover {
+	color: var(--k-paper);
+}
+
