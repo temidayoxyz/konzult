@@ -182,3 +182,92 @@ function konzult_footer_menu_fallback() {
 	get_template_part( 'template-parts/footer-menu-content' );
 }
 
+/**
+ * Post meta line.
+ */
+function konzult_post_meta() {
+	$categories = get_the_category_list( ', ' );
+	?>
+	<div class="k-meta">
+		<time class="k-meta__date" datetime="<?php echo esc_attr( get_the_date( DATE_W3C ) ); ?>">
+			<?php echo esc_html( get_the_date() ); ?>
+		</time>
+		<?php if ( $categories ) : ?>
+			<span class="k-meta__sep" aria-hidden="true"></span>
+			<span class="k-meta__cats"><?php echo wp_kses_post( $categories ); ?></span>
+		<?php endif; ?>
+		<span class="k-meta__sep" aria-hidden="true"></span>
+		<span class="k-meta__time"><?php echo esc_html( konzult_reading_time() ); ?></span>
+	</div>
+	<?php
+}
+
+/**
+ * Estimated reading time.
+ *
+ * @return string
+ */
+function konzult_reading_time() {
+	$words   = str_word_count( wp_strip_all_tags( get_the_content() ) );
+	$minutes = max( 1, (int) ceil( $words / 220 ) );
+
+	/* translators: %d: number of minutes. */
+	return sprintf( _n( '%d min read', '%d min read', $minutes, 'konzult' ), $minutes );
+}
+
+/**
+ * Turn a display name into one or two initials.
+ *
+ * @param string $name Display name.
+ * @return string
+ */
+function konzult_initials( $name ) {
+	$parts   = preg_split( '/\s+/u', trim( (string) $name ) );
+	$letters = '';
+
+	if ( ! is_array( $parts ) ) {
+		return 'K';
+	}
+
+	foreach ( array_slice( $parts, 0, 2 ) as $part ) {
+		if ( preg_match( '/^./u', $part, $match ) ) {
+			$letters .= $match[0];
+		}
+	}
+
+	return $letters ? strtoupper( $letters ) : 'K';
+}
+
+/**
+ * Author avatar: the real Gravatar when one exists, initials otherwise.
+ *
+ * WordPress falls back to a generic silhouette for users without a Gravatar.
+ * A designed theme can do better, so we render a monogram in the same style as
+ * the testimonial.
+ *
+ * @param int $author_id Author ID. Defaults to the current post author.
+ * @param int $size      Pixel size.
+ */
+function konzult_author_avatar( $author_id = 0, $size = 72 ) {
+	$author_id = $author_id ? (int) $author_id : (int) get_the_author_meta( 'ID' );
+	$name      = $author_id ? get_the_author_meta( 'display_name', $author_id ) : '';
+	$name      = $name ? $name : get_bloginfo( 'name', 'display' );
+
+	/**
+	 * Gravatar returns a generic silhouette for most demo accounts, which looks
+	 * unfinished. Monograms are the default; opt into Gravatar if you want it.
+	 *
+	 * @param bool $show      Whether to use the Gravatar image.
+	 * @param int  $author_id Author ID.
+	 */
+	if ( $author_id && apply_filters( 'konzult_show_author_gravatar', false, $author_id ) ) {
+		echo get_avatar( $author_id, $size, '', '', array( 'class' => 'k-author__avatar' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		return;
+	}
+
+	printf(
+		'<span class="k-author__initials" aria-hidden="true">%s</span>',
+		esc_html( konzult_initials( $name ) )
+	);
+}
+
