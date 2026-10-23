@@ -96,3 +96,15 @@ All tokens live at the top of `assets/css/main.css` as custom properties. Fonts 
 
 `theme.json` exposes the same palette and type scale to the block editor.
 
+## 6. Motion
+
+`assets/js/main.js` is dependency-free and does five things:
+
+1. sticky header state
+2. scroll reveals with `IntersectionObserver`
+3. stat counters
+4. the `<dialog>` mobile menu (native focus trap and Escape)
+5. a 16px parallax on the hero artwork
+
+Everything is disabled under `prefers-reduced-motion: reduce`, and content is visible if JavaScript fails.
+
