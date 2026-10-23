@@ -108,3 +108,19 @@ All tokens live at the top of `assets/css/main.css` as custom properties. Fonts 
 
 Everything is disabled under `prefers-reduced-motion: reduce`, and content is visible if JavaScript fails.
 
+## 7. Accessibility notes
+
+- Skip link, landmark elements, visible focus rings
+- Native `<dialog>` for the mobile menu
+- Text contrast checked against the paper and ink backgrounds
+- Animations respect reduced-motion
+- Decorative SVGs are `aria-hidden`; the marquee duplicate is hidden from screen readers
+
+## 8. Performance notes
+
+- Two font files preloaded, three total, all self-hosted
+- No jQuery, no animation library, no CSS framework
+- One stylesheet, one deferred script
+- Images use WordPress responsive sizes; the hero SVG is a few KB
+- `fetchpriority="high"` on the hero image
+
