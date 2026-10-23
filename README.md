@@ -153,3 +153,10 @@ konzult/
 └── style.css
 ```
 
+## 10. Licensing
+
+- Theme code: [GPL-2.0-or-later](LICENSE).
+- **Instrument Serif** and **Inter**: SIL Open Font License 1.1, self-hosted. Full text in `assets/fonts/OFL.txt`.
+- Demo company names, testimonials and figures are fictional placeholders. Replace them before launch.
+- No stock photography is bundled, so there are no image licences to clear.
+
