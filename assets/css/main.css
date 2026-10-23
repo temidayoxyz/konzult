@@ -1165,3 +1165,41 @@ hr {
 	transform: translate(2px, -2px);
 }
 
+/* --------------------------------------------------------------------------
+   13. Numbers
+   -------------------------------------------------------------------------- */
+
+.k-stats {
+	padding-block: clamp(2.75rem, 5vw, 4.5rem);
+	border-bottom: 1px solid var(--k-line);
+	background: var(--k-paper);
+}
+
+.k-stats__grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.k-stat {
+	display: grid;
+	gap: 0.6rem;
+	padding-top: 1.1rem;
+	border-top: 1px solid var(--k-ink);
+}
+
+.k-stat__value {
+	font-family: var(--k-font-display);
+	font-size: clamp(2.5rem, 4.4vw, 4rem);
+	line-height: 1;
+	letter-spacing: -0.035em;
+	font-variant-numeric: tabular-nums;
+}
+
+.k-stat__label {
+	color: var(--k-muted);
+	font-size: 0.6875rem;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+
