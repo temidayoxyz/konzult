@@ -1,0 +1,14 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and local tooling
+.idea/
+.vscode/
+*.code-workspace
+node_modules/
+vendor/
+*.log
+.env
+.env.*
