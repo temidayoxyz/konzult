@@ -32,3 +32,35 @@
 	src: url("../fonts/inter-var.woff2") format("woff2");
 }
 
+/* --------------------------------------------------------------------------
+   2. Tokens
+   -------------------------------------------------------------------------- */
+
+:root {
+	--k-ink: #12150f;
+	--k-ink-2: #2b3028;
+	--k-muted: #5c6158;
+	--k-paper: #f6f3ec;
+	--k-paper-2: #ede8dc;
+	--k-paper-3: #e2dbcb;
+	--k-white: #ffffff;
+	--k-accent: #1e4a3a;
+	--k-accent-ink: #143328;
+	--k-warm: #b9814a;
+
+	--k-line: rgba(18, 21, 15, 0.14);
+	--k-line-soft: rgba(18, 21, 15, 0.08);
+	--k-line-strong: rgba(18, 21, 15, 0.3);
+	--k-line-light: rgba(246, 243, 236, 0.16);
+
+	--k-font-display: "Instrument Serif", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+	--k-font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+	--k-radius: 2px;
+	--k-ease: cubic-bezier(0.16, 1, 0.3, 1);
+	--k-container: 1240px;
+	--k-gutter: clamp(1.25rem, 4vw, 3.5rem);
+	--k-section: clamp(4.5rem, 9vw, 8.5rem);
+	--k-header-h: 84px;
+}
+
