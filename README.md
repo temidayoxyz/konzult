@@ -124,3 +124,32 @@ Everything is disabled under `prefers-reduced-motion: reduce`, and content is vi
 - Images use WordPress responsive sizes; the hero SVG is a few KB
 - `fetchpriority="high"` on the hero image
 
+## 9. File map
+
+```
+konzult/
+├── assets/
+│   ├── css/main.css        design system
+│   ├── css/editor.css      block editor styles
+│   ├── fonts/              Instrument Serif + Inter (woff2)
+│   ├── img/hero-arches.svg
+│   └── js/main.js
+├── elementor/templates/home.json
+├── inc/
+│   ├── customizer.php
+│   ├── elementor.php
+│   ├── enqueue.php
+│   ├── setup.php
+│   └── template-tags.php
+├── template-parts/
+│   ├── content/            cards, loops, page hero, empty state
+│   ├── home/               homepage sections
+│   └── footer-menu-content.php
+├── front-page.php
+├── header.php / footer.php
+├── page.php / single.php / archive.php / search.php / 404.php
+├── template-fullwidth.php
+├── theme.json
+└── style.css
+```
+
