@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="">
+	<defs>
+		<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#F1EDE3"/>
+			<stop offset="1" stop-color="#E4DED0"/>
+		</linearGradient>
+		<filter id="grain" x="0" y="0" width="100%" height="100%">
+			<feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch" result="noise"/>
+			<feColorMatrix in="noise" type="saturate" values="0"/>
+		</filter>
+	</defs>
+
+	<rect width="800" height="1000" fill="url(#paper)"/>
+
+	<g fill="none" stroke="#1E4A3A">
+		<path d="M72 1000V566a328 328 0 0 1 656 0v434" stroke-width="1.4" opacity=".55"/>
+		<path d="M140 1000V586a260 260 0 0 1 520 0v414" stroke-width="1.4" opacity=".7"/>
+		<path d="M208 1000V606a192 192 0 0 1 384 0v394" stroke-width="1.4" opacity=".85"/>
+	</g>
+
+	<path d="M276 1000V628a124 124 0 0 1 248 0v372Z" fill="#1E4A3A"/>
+
+	<circle cx="648" cy="214" r="86" fill="none" stroke="#B9814A" stroke-width="1.4"/>
+	<path d="M648 128v172M562 214h172" stroke="#B9814A" stroke-width="1.4" opacity=".5"/>
+
+	<g stroke="#12150F" stroke-width="1" opacity=".18">
+		<path d="M72 120h256"/>
+		<path d="M72 132h160"/>
+	</g>
+
+	<rect x="72" y="884" width="30" height="30" fill="none" stroke="#12150F" stroke-width="1"/>
+
+	<rect width="800" height="1000" filter="url(#grain)" opacity=".35"/>
+</svg>
