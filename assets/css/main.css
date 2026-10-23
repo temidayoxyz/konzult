@@ -1967,3 +1967,61 @@ hr {
 	color: var(--k-accent);
 }
 
+/* Archive */
+
+.k-archive {
+	padding-block: clamp(2.5rem, 4vw, 3.5rem) clamp(4rem, 7vw, 6rem);
+}
+
+.k-pagination {
+	margin-top: clamp(3rem, 5vw, 4rem);
+}
+
+.k-pagination .nav-links {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.k-pagination .page-numbers {
+	display: grid;
+	place-items: center;
+	min-width: 2.5rem;
+	height: 2.5rem;
+	padding-inline: 0.5rem;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	color: var(--k-muted);
+	font-size: 0.875rem;
+	font-variant-numeric: tabular-nums;
+	transition: border-color 0.3s, color 0.3s;
+}
+
+.k-pagination .page-numbers:hover {
+	border-color: var(--k-line);
+	color: var(--k-ink);
+}
+
+.k-pagination .page-numbers.current {
+	border-color: var(--k-ink);
+	color: var(--k-ink);
+}
+
+.k-pagination .prev,
+.k-pagination .next {
+	width: auto;
+	border-radius: 999px;
+	padding-inline: 1rem;
+}
+
+.k-empty {
+	max-width: 620px;
+	padding-block: clamp(2rem, 4vw, 3rem) 0;
+}
+
+.k-empty .k-search,
+.k-empty .k-link {
+	margin-top: 2rem;
+}
+
