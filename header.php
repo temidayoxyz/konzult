@@ -57,3 +57,28 @@ $konzult_phone_uri = preg_replace( '/[^0-9+]/', '', $konzult_phone );
 	</div>
 </header>
 
+<dialog class="k-drawer" id="k-drawer" aria-label="<?php esc_attr_e( 'Menu', 'konzult' ); ?>">
+	<div class="k-drawer__head k-container">
+		<?php konzult_site_logo(); ?>
+		<button class="k-drawer__close" type="button" data-k-drawer-close>
+			<span class="screen-reader-text"><?php esc_html_e( 'Close menu', 'konzult' ); ?></span>
+			<?php echo konzult_icon( 'close', 20 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+		</button>
+	</div>
+
+	<nav class="k-drawer__nav" aria-label="<?php esc_attr_e( 'Mobile', 'konzult' ); ?>">
+		<?php konzult_primary_menu(); ?>
+	</nav>
+
+	<div class="k-drawer__foot k-container">
+		<a class="k-btn" href="<?php echo esc_url( $konzult_cta_url ); ?>">
+			<span class="k-btn__label"><?php echo esc_html( $konzult_cta_label ); ?></span>
+			<span class="k-btn__icon" aria-hidden="true"><?php echo konzult_icon( 'arrow', 14 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></span>
+		</a>
+		<?php if ( $konzult_phone ) : ?>
+			<a class="k-drawer__phone" href="<?php echo esc_url( 'tel:' . $konzult_phone_uri ); ?>"><?php echo esc_html( $konzult_phone ); ?></a>
+		<?php endif; ?>
+	</div>
+</dialog>
+
+<main id="content" class="k-main">
