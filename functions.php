@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'KONZULT_VERSION', '1.0.0' );
+define( 'KONZULT_VERSION', '1.0.1' );
 define( 'KONZULT_DIR', get_template_directory() );
 define( 'KONZULT_URI', get_template_directory_uri() );
 
