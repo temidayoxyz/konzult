@@ -66,3 +66,67 @@ function konzult_setup() {
 }
 add_action( 'after_setup_theme', 'konzult_setup' );
 
+/**
+ * Register footer widget areas.
+ */
+function konzult_widgets_init() {
+	for ( $column = 1; $column <= 3; $column++ ) {
+		register_sidebar(
+			array(
+				/* translators: %d: footer column number. */
+				'name'          => sprintf( __( 'Footer column %d', 'konzult' ), $column ),
+				'id'            => 'footer-' . $column,
+				'description'   => __( 'Optional footer column. Leave empty to keep the default layout.', 'konzult' ),
+				'before_widget' => '<div id="%1$s" class="k-widget %2$s">',
+				'after_widget'  => '</div>',
+				'before_title'  => '<h2 class="k-widget__title">',
+				'after_title'   => '</h2>',
+			)
+		);
+	}
+}
+add_action( 'widgets_init', 'konzult_widgets_init' );
+
+/**
+ * Body classes that describe the current layout.
+ *
+ * @param string[] $classes Existing classes.
+ * @return string[]
+ */
+function konzult_body_classes( $classes ) {
+	if ( ! is_active_sidebar( 'footer-1' ) && ! is_active_sidebar( 'footer-2' ) && ! is_active_sidebar( 'footer-3' ) ) {
+		$classes[] = 'k-has-default-footer';
+	}
+
+	if ( is_singular() && has_post_thumbnail() ) {
+		$classes[] = 'k-has-post-thumbnail';
+	}
+
+	if ( konzult_is_elementor_page() ) {
+		$classes[] = 'k-built-with-elementor';
+	}
+
+	return $classes;
+}
+add_filter( 'body_class', 'konzult_body_classes' );
+
+/**
+ * Shorten the excerpt without breaking words.
+ *
+ * @return string
+ */
+function konzult_excerpt_more() {
+	return '&hellip;';
+}
+add_filter( 'excerpt_more', 'konzult_excerpt_more' );
+
+/**
+ * Give excerpts an editorial length.
+ *
+ * @param int $length Default length.
+ * @return int
+ */
+function konzult_excerpt_length( $length ) {
+	return 24;
+}
+add_filter( 'excerpt_length', 'konzult_excerpt_length' );
