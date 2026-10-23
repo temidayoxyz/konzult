@@ -1078,3 +1078,90 @@ hr {
 	line-height: 1.5;
 }
 
+/* --------------------------------------------------------------------------
+   12. Services
+   -------------------------------------------------------------------------- */
+
+.k-services__list {
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid var(--k-line);
+	list-style: none;
+}
+
+.k-service {
+	border-bottom: 1px solid var(--k-line);
+}
+
+.k-service__link {
+	display: grid;
+	grid-template-columns: 3rem 1fr 7.5rem 3rem;
+	gap: 1.5rem;
+	align-items: center;
+	padding: clamp(1.4rem, 2.6vw, 2.2rem) 0.25rem;
+	transition: background 0.45s var(--k-ease), padding 0.45s var(--k-ease);
+}
+
+.k-service__link:hover {
+	padding-inline: 1.25rem;
+	background: var(--k-paper-2);
+}
+
+.k-service__index {
+	color: var(--k-muted);
+	font-size: 0.6875rem;
+	letter-spacing: 0.1em;
+	font-variant-numeric: tabular-nums;
+}
+
+.k-service__main {
+	display: grid;
+	grid-template-columns: minmax(190px, 0.5fr) 1fr;
+	gap: clamp(1rem, 3vw, 2.5rem);
+	align-items: baseline;
+}
+
+.k-service__title {
+	font-family: var(--k-font-display);
+	font-size: clamp(1.55rem, 2.5vw, 2.1rem);
+	line-height: 1.05;
+	letter-spacing: -0.02em;
+	transition: transform 0.5s var(--k-ease);
+}
+
+.k-service__link:hover .k-service__title {
+	transform: translateX(4px);
+}
+
+.k-service__desc {
+	max-width: 52ch;
+	color: var(--k-muted);
+	font-size: 0.9375rem;
+	line-height: 1.6;
+}
+
+.k-service__meta {
+	color: var(--k-muted);
+	font-size: 0.75rem;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.k-service__arrow {
+	display: grid;
+	place-items: center;
+	justify-self: end;
+	width: 2.6rem;
+	height: 2.6rem;
+	border: 1px solid var(--k-line);
+	border-radius: 50%;
+	transition: background 0.4s, border-color 0.4s, color 0.4s, transform 0.5s var(--k-ease);
+}
+
+.k-service__link:hover .k-service__arrow {
+	background: var(--k-accent);
+	border-color: var(--k-accent);
+	color: var(--k-paper);
+	transform: translate(2px, -2px);
+}
+
