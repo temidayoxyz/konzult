@@ -2422,3 +2422,36 @@ hr {
 	}
 }
 
+@media (max-width: 959px) {
+	.k-hero__grid {
+		grid-template-columns: 1fr;
+		align-items: start;
+	}
+
+	.k-hero__visual {
+		max-width: 560px;
+	}
+
+	.k-hero__title {
+		max-width: 14ch;
+	}
+
+	.k-float-stat {
+		left: auto;
+		right: 1rem;
+		bottom: 2.5rem;
+	}
+
+	.k-cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.k-service__link {
+		grid-template-columns: 2.5rem 1fr 2.75rem;
+	}
+
+	.k-service__meta {
+		display: none;
+	}
+}
+
