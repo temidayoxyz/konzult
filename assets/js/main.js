@@ -213,4 +213,41 @@
 		}
 	}
 
-	
+	/* ---------------------------------------------------------------------
+	 * Gentle parallax on the hero artwork
+	 * ------------------------------------------------------------------ */
+
+	const parallaxItems = document.querySelectorAll('[data-k-parallax]');
+
+	if (parallaxItems.length && !reduceMotion && window.innerWidth > 960) {
+		let queued = false;
+
+		const updateParallax = () => {
+			parallaxItems.forEach((el) => {
+				const rect = el.getBoundingClientRect();
+
+				if (rect.bottom < -100 || rect.top > window.innerHeight + 100) {
+					return;
+				}
+
+				const offset = ((rect.top + rect.height / 2) - window.innerHeight / 2) / window.innerHeight;
+				el.style.transform = `translate3d(0, ${(offset * -16).toFixed(2)}px, 0)`;
+			});
+
+			queued = false;
+		};
+
+		window.addEventListener(
+			'scroll',
+			() => {
+				if (!queued) {
+					window.requestAnimationFrame(updateParallax);
+					queued = true;
+				}
+			},
+			{ passive: true }
+		);
+
+		updateParallax();
+	}
+})();
