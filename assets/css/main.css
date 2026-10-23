@@ -2087,3 +2087,34 @@ hr {
 	transform: translate(2px, -2px);
 }
 
+/* 404 */
+
+.k-404 {
+	display: grid;
+	align-items: center;
+	min-height: 62vh;
+	padding-block: clamp(4rem, 10vw, 9rem);
+	border-bottom: 1px solid var(--k-line);
+}
+
+.k-404__inner {
+	max-width: 760px;
+}
+
+.k-404__title {
+	max-width: 16ch;
+	margin: 0 0 1.25rem;
+	font-size: clamp(2.6rem, 5.6vw, 4.6rem);
+	line-height: 0.98;
+	letter-spacing: -0.035em;
+}
+
+.k-404__lead {
+	max-width: 52ch;
+	color: var(--k-muted);
+}
+
+.k-404__search {
+	margin: 2.25rem 0;
+}
+
