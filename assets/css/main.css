@@ -2025,3 +2025,65 @@ hr {
 	margin-top: 2rem;
 }
 
+/* Search */
+
+.k-search-wrap {
+	padding-block: 2rem 0;
+}
+
+.k-search {
+	max-width: 540px;
+}
+
+.k-search__label {
+	display: block;
+	margin-bottom: 0.5rem;
+	color: var(--k-muted);
+	font-size: 0.6875rem;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.k-search__field {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid var(--k-ink);
+	transition: border-color 0.3s;
+}
+
+.k-search__field:focus-within {
+	border-color: var(--k-accent);
+}
+
+.k-search__input {
+	flex: 1;
+	min-width: 0;
+	padding: 0.75rem 0;
+	background: transparent;
+	border: 0;
+	color: var(--k-ink);
+	font: inherit;
+	outline: none;
+}
+
+.k-search__input::placeholder {
+	color: var(--k-muted);
+	opacity: 0.7;
+}
+
+.k-search__submit {
+	display: grid;
+	place-items: center;
+	width: 2.75rem;
+	height: 2.75rem;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	transition: transform 0.4s var(--k-ease);
+}
+
+.k-search__submit:hover {
+	transform: translate(2px, -2px);
+}
+
