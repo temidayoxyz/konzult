@@ -47,4 +47,26 @@ $konzult_cta_url = konzult_option( 'header_cta_url' );
 			</ul>
 		</div>
 
-		
+		<div class="k-hero__visual" data-reveal style="--i:2">
+			<figure class="k-hero__figure" data-k-parallax>
+				<img
+					src="<?php echo esc_url( KONZULT_URI . '/assets/img/hero-arches.svg' ); ?>"
+					width="800"
+					height="1000"
+					alt=""
+					fetchpriority="high"
+					decoding="async"
+				>
+				<figcaption class="k-hero__caption">
+					<span><?php esc_html_e( 'Fig. 01', 'konzult' ); ?></span>
+					<span><?php esc_html_e( 'Clarity is a structure, not a slogan.', 'konzult' ); ?></span>
+				</figcaption>
+			</figure>
+
+			<div class="k-float-stat">
+				<span class="k-float-stat__value">92<span>%</span></span>
+				<span class="k-float-stat__label"><?php esc_html_e( 'client retention across 140+ engagements', 'konzult' ); ?></span>
+			</div>
+		</div>
+	</div>
+</section>
