@@ -45,4 +45,29 @@
 		syncHeader();
 	}
 
+	/* ---------------------------------------------------------------------
+	 * Scroll reveals
+	 * ------------------------------------------------------------------ */
+
+	const reveals = document.querySelectorAll('[data-reveal]');
+
+	if (reveals.length && hasIO && !reduceMotion) {
+		const revealObserver = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (!entry.isIntersecting) {
+						return;
+					}
+					entry.target.classList.add('is-in');
+					revealObserver.unobserve(entry.target);
+				});
+			},
+			{ threshold: 0.12, rootMargin: '0px 0px -6% 0px' }
+		);
+
+		reveals.forEach((el) => revealObserver.observe(el));
+	} else {
+		reveals.forEach((el) => el.classList.add('is-in'));
+	}
+
 	
