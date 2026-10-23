@@ -1445,3 +1445,83 @@ hr {
 	letter-spacing: 0.02em;
 }
 
+/* --------------------------------------------------------------------------
+   17. Closing call to action
+   -------------------------------------------------------------------------- */
+
+.k-cta {
+	position: relative;
+	overflow: hidden;
+	padding-block: clamp(4.5rem, 9vw, 8.5rem);
+	background: var(--k-ink);
+	color: var(--k-paper);
+}
+
+.k-cta__inner {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
+	gap: 3rem;
+}
+
+.k-cta__content {
+	max-width: 760px;
+}
+
+.k-cta__title {
+	max-width: 14ch;
+	margin: 0 0 1.5rem;
+	font-size: clamp(2.7rem, 5.8vw, 5.2rem);
+	line-height: 0.97;
+	letter-spacing: -0.038em;
+}
+
+.k-cta__title em {
+	color: #c9a87c;
+	font-style: italic;
+}
+
+.k-cta__lead {
+	max-width: 46ch;
+	margin: 0 0 2.25rem;
+	color: rgba(246, 243, 236, 0.7);
+	font-size: 1.0625rem;
+	line-height: 1.7;
+}
+
+.k-cta__actions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 1.75rem;
+}
+
+.k-cta__phone {
+	margin: 2rem 0 0;
+	color: rgba(246, 243, 236, 0.5);
+	font-size: 0.8125rem;
+}
+
+.k-cta__phone a {
+	margin-left: 0.4rem;
+	color: var(--k-paper);
+	border-bottom: 1px solid rgba(246, 243, 236, 0.3);
+	transition: border-color 0.3s;
+}
+
+.k-cta__phone a:hover {
+	border-color: var(--k-paper);
+}
+
+.k-cta__glyph {
+	width: clamp(170px, 21vw, 300px);
+	color: rgba(246, 243, 236, 0.18);
+	transform: rotate(-6deg);
+}
+
+.k-cta__glyph svg {
+	width: 100%;
+	height: auto;
+}
+
