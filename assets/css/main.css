@@ -2355,3 +2355,70 @@ hr {
 	}
 }
 
+@media (max-width: 1023px) {
+	:root {
+		--k-header-h: 74px;
+	}
+
+	.k-nav {
+		display: none;
+	}
+
+	.k-nav-toggle {
+		display: inline-flex;
+	}
+
+	.k-intro__grid,
+	.k-section__head,
+	.k-quote__inner {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+
+	.k-intro__aside {
+		position: static;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 2rem;
+	}
+
+	.k-intro__aside .k-eyebrow {
+		margin-bottom: 0;
+	}
+
+	.k-quote__label {
+		margin-bottom: 0.5rem;
+	}
+
+	.k-stats__grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem 1.5rem;
+	}
+
+	.k-process__grid {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+
+	.k-step {
+		padding-block: 2rem;
+	}
+
+	.k-step__num {
+		margin-bottom: 1rem;
+	}
+
+	.k-cta__inner {
+		grid-template-columns: 1fr;
+	}
+
+	.k-cta__glyph {
+		display: none;
+	}
+
+	.k-footer__grid {
+		grid-template-columns: 1fr;
+	}
+}
+
