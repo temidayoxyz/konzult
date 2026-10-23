@@ -2328,6 +2328,28 @@ hr {
 	will-change: auto;
 }
 
+/* The Elementor editor preview is a working surface, not a viewing surface.
+   Keep the canvas still while someone is editing it. */
+.k-editor {
+	scroll-behavior: auto;
+}
+
+.k-editor .k-header {
+	-webkit-backdrop-filter: none;
+	backdrop-filter: none;
+	background: var(--k-paper);
+}
+
+.k-editor [data-reveal] {
+	opacity: 1;
+	transform: none;
+	transition: none;
+}
+
+.k-editor .k-marquee__track {
+	animation: none;
+}
+
 /* --------------------------------------------------------------------------
    22. Responsive
    -------------------------------------------------------------------------- */
