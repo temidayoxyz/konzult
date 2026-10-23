@@ -470,11 +470,6 @@ hr {
 	justify-content: space-between;
 	gap: 2rem;
 	height: var(--k-header-h);
-	transition: height 0.45s var(--k-ease);
-}
-
-.k-header.is-stuck .k-header__inner {
-	height: 70px;
 }
 
 .k-header__brand {
