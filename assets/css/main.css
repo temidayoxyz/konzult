@@ -1330,3 +1330,43 @@ hr {
 	font-size: 0.8125rem;
 }
 
+/* --------------------------------------------------------------------------
+   16. Cards
+   -------------------------------------------------------------------------- */
+
+.k-cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.k-card {
+	margin: 0;
+}
+
+.k-card__link {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.k-card__media {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	aspect-ratio: 4 / 3;
+	background: var(--k-paper-2);
+	border-radius: var(--k-radius);
+}
+
+.k-card__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.9s var(--k-ease);
+}
+
+.k-card__link:hover .k-card__image {
+	transform: scale(1.04);
+}
+
