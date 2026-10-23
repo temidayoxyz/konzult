@@ -110,3 +110,75 @@ function konzult_site_logo() {
 	<?php
 }
 
+/**
+ * Fallback primary navigation.
+ */
+function konzult_nav_fallback() {
+	$pages = get_pages(
+		array(
+			'parent'      => 0,
+			'sort_column' => 'menu_order,post_title',
+			'number'      => 4,
+		)
+	);
+
+	echo '<ul class="k-nav__list">';
+
+	if ( $pages ) {
+		printf(
+			'<li class="menu-item"><a href="%1$s">%2$s</a></li>',
+			esc_url( home_url( '/' ) ),
+			esc_html__( 'Home', 'konzult' )
+		);
+
+		foreach ( $pages as $page ) {
+			printf(
+				'<li class="menu-item"><a href="%1$s">%2$s</a></li>',
+				esc_url( get_permalink( $page ) ),
+				esc_html( get_the_title( $page ) )
+			);
+		}
+	} else {
+		$home  = home_url( '/' );
+		$items = array(
+			__( 'Services', 'konzult' ) => $home . '#services',
+			__( 'Approach', 'konzult' ) => $home . '#approach',
+			__( 'About', 'konzult' )    => $home . '#about',
+			__( 'Insights', 'konzult' ) => $home . '#insights',
+			__( 'Contact', 'konzult' )  => $home . '#contact',
+		);
+
+		foreach ( $items as $label => $url ) {
+			printf(
+				'<li class="menu-item"><a href="%1$s">%2$s</a></li>',
+				esc_url( $url ),
+				esc_html( $label )
+			);
+		}
+	}
+
+	echo '</ul>';
+}
+
+/**
+ * Render the primary menu.
+ */
+function konzult_primary_menu() {
+	wp_nav_menu(
+		array(
+			'theme_location' => 'primary',
+			'container'      => false,
+			'menu_class'     => 'k-nav__list',
+			'fallback_cb'    => 'konzult_nav_fallback',
+			'depth'          => 2,
+		)
+	);
+}
+
+/**
+ * Default footer menu, used until the buyer assigns one.
+ */
+function konzult_footer_menu_fallback() {
+	get_template_part( 'template-parts/footer-menu-content' );
+}
+
