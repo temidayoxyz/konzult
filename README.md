@@ -64,3 +64,19 @@ The template is typographic on purpose: it ships without stock photography, so n
 
 > **Elementor Pro:** if Pro is active, the theme registers all core Theme Builder locations. You can then build the header, footer, single post and archive templates in Elementor. On free Elementor those locations stay in PHP, which is why the theme's chrome is fully designed and configurable in the Customizer.
 
+## 4. Editing the built-in homepage
+
+The homepage is assembled from PHP sections in `template-parts/home/`:
+
+```
+hero.php      clients.php   intro.php    services.php
+stats.php     process.php   quote.php    insights.php   cta.php
+```
+
+Each section is self-contained and uses `esc_html__()` for copy, so you can edit text directly or translate it. To remove a section, delete its `get_template_part()` line in `front-page.php`.
+
+The **Insights** section only appears once you publish posts. The **stats** counters animate when scrolled into view.
+
+To use the normal blog index as your homepage instead:
+**Customize → Homepage settings →** uncheck the demo showcase (or set a static front page with your own content).
+
