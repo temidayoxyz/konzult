@@ -1,0 +1,21 @@
+/*
+Theme Name: Konzult
+Theme URI: https://konzult.studio/
+Author: Konzult Studio
+Author URI: https://konzult.studio/
+Description: A sleek, editorial consulting theme for boutiques, advisory firms and strategy practices. Built to work beautifully with free Elementor, with a complete design system, a native homepage, and motion that respects the reader.
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 7.1
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: konzult
+Tags: business, consulting, one-column, two-columns, custom-logo, custom-menu, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, block-styles, wide-blocks
+*/
+
+/*
+ * The compiled design system lives in assets/css/main.css.
+ * Keeping the theme header here is the WordPress convention and lets buyers
+ * replace the design layer without touching theme metadata.
+ */
