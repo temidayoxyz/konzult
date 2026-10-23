@@ -2236,3 +2236,37 @@ hr {
 	cursor: pointer;
 }
 
+/* WordPress core alignment helpers */
+
+.alignleft {
+	float: left;
+	margin: 0 1.5rem 1rem 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 1rem 1.5rem;
+}
+
+.aligncenter {
+	display: block;
+	margin-inline: auto;
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+
+.wp-caption-text {
+	color: var(--k-muted);
+	font-size: 0.8125rem;
+}
+
+.sticky {
+	display: block;
+}
+
+.bypostauthor {
+	display: block;
+}
+
