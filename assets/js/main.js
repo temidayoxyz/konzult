@@ -23,7 +23,11 @@
 		let queued = false;
 
 		const syncHeader = () => {
-			const stuck = window.scrollY > 12;
+			const y = window.scrollY;
+
+			// Hysteresis prevents the stuck state from flickering around the trigger point.
+			const stuck = lastState ? y > 8 : y > 16;
+
 			if (stuck !== lastState) {
 				header.classList.toggle('is-stuck', stuck);
 				lastState = stuck;
