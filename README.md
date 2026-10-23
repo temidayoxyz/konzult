@@ -4,7 +4,9 @@ A sleek, editorial WordPress theme for consulting practices, advisory firms and 
 
 ![Konzult theme screenshot](screenshot.png)
 
-- **Version:** 1.0.0
+- **Version:** 1.0.1
+- **Repository:** [github.com/temidayoxyz/konzult](https://github.com/temidayoxyz/konzult)
+- **Latest release:** [v1.0.1](https://github.com/temidayoxyz/konzult/releases/tag/v1.0.1)
 - **Requires:** WordPress 6.4+, PHP 8.0+
 - **License:** [GPL-2.0-or-later](LICENSE)
 - **Text domain:** `konzult`
@@ -106,7 +108,7 @@ All tokens live at the top of `assets/css/main.css` as custom properties. Fonts 
 4. the `<dialog>` mobile menu (native focus trap and Escape)
 5. a 16px parallax on the hero artwork
 
-Everything is disabled under `prefers-reduced-motion: reduce`, and content is visible if JavaScript fails.
+Everything is disabled under `prefers-reduced-motion: reduce`, and content is visible if JavaScript fails. The Elementor editor preview also switches the motion layer off so the canvas stays still while you edit.
 
 ## 7. Accessibility notes
 
@@ -161,6 +163,10 @@ konzult/
 - No stock photography is bundled, so there are no image licences to clear.
 
 ## 11. Changelog
+
+### 1.0.1
+- Fixed the sticky header oscillating near the top of the page. The header no longer changes height on scroll, and the stuck state uses hysteresis.
+- Disabled entrance reveals, parallax, marquee motion and header blur inside the Elementor editor preview so editing stays still.
 
 ### 1.0.0
 - Initial release: native homepage, nine sections, Elementor starter template, full inner-page set, motion layer, Customizer options, theme.json.

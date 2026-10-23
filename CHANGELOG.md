@@ -4,6 +4,18 @@ All notable changes to Konzult are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and releases use
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-10-23
+
+### Fixed
+
+- Removed the sticky-header height change that caused scroll-anchoring feedback
+  and made the header oscillate near the top of the page.
+- Added hysteresis to the header's stuck state so it cannot flicker around the
+  scroll threshold.
+- Disabled entrance reveals, parallax, marquee motion, header blur, and smooth
+  scrolling inside the Elementor editor preview. The editing canvas now stays
+  still, and all content is visible while editing.
+
 ## [1.0.0] - 2026-10-23
 
 ### Added

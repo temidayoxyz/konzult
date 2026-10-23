@@ -3,7 +3,7 @@ Contributors: konzultstudio
 Requires at least: 6.4
 Tested up to: 7.1
 Requires PHP: 8.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: business, consulting, one-column, two-columns, custom-logo, custom-menu, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, block-styles, wide-blocks
@@ -38,6 +38,10 @@ Yes. Instrument Serif and Inter are self-hosted as woff2 files under the SIL Ope
 Yes, under Appearance > Customize > Konzult options > Brand colour.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fixed the sticky header oscillating near the top of the page.
+* Disabled theme motion inside the Elementor editor preview for a stable canvas.
 
 = 1.0.0 =
 * Initial release.
