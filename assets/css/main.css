@@ -438,3 +438,72 @@ hr {
 	color: var(--k-white);
 }
 
+/* --------------------------------------------------------------------------
+   7. Header
+   -------------------------------------------------------------------------- */
+
+.k-header {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background: rgba(246, 243, 236, 0.82);
+	border-bottom: 1px solid transparent;
+	-webkit-backdrop-filter: blur(14px) saturate(1.15);
+	backdrop-filter: blur(14px) saturate(1.15);
+	transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+@supports (background: color-mix(in srgb, red 50%, blue)) {
+	.k-header {
+		background: color-mix(in srgb, var(--k-paper) 82%, transparent);
+	}
+}
+
+.k-header.is-stuck {
+	border-bottom-color: var(--k-line);
+	box-shadow: 0 18px 40px -32px rgba(18, 21, 15, 0.45);
+}
+
+.k-header__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	height: var(--k-header-h);
+	transition: height 0.45s var(--k-ease);
+}
+
+.k-header.is-stuck .k-header__inner {
+	height: 70px;
+}
+
+.k-header__brand {
+	flex: none;
+}
+
+.k-logo {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.65rem;
+	color: inherit;
+	font-family: var(--k-font-display);
+	font-size: 1.6rem;
+	line-height: 1;
+	letter-spacing: -0.025em;
+}
+
+.k-logo__mark {
+	display: inline-flex;
+	color: var(--k-accent);
+	transition: transform 0.7s var(--k-ease);
+}
+
+.k-logo:hover .k-logo__mark {
+	transform: rotate(90deg);
+}
+
+.k-logo img {
+	width: auto;
+	max-height: 44px;
+}
+
