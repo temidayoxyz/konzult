@@ -1,0 +1,721 @@
+# Copyright (C) 2026 Konzult Studio
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Konzult 1.0.0\n"
+"Report-Msgid-Bugs-To: https://konzult.studio/support\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-22T20:29:28+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: konzult\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Konzult"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://konzult.studio/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A sleek, editorial consulting theme for boutiques, advisory firms and strategy practices. Built to work beautifully with free Elementor, with a complete design system, a native homepage, and motion that respects the reader."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Konzult Studio"
+msgstr ""
+
+#: 404.php:14
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:17
+msgid "This page took a different turn."
+msgstr ""
+
+#: 404.php:18
+msgid "The link may be old, or the page may have moved. Start with a search — or go back to the beginning."
+msgstr ""
+
+#: 404.php:23
+#: template-parts/content/none.php:14
+msgid "Back to home"
+msgstr ""
+
+#: archive.php:17
+msgid "Archive"
+msgstr ""
+
+#. translators: %s: comment count.
+#: comments.php:19
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:41
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:56
+msgid "Join the conversation"
+msgstr ""
+
+#: comments.php:60
+msgid "Post comment"
+msgstr ""
+
+#: footer.php:49
+msgid "Practice"
+msgstr ""
+
+#: footer.php:64
+#: inc/template-tags.php:148
+#: template-parts/footer-menu-content.php:16
+msgid "Contact"
+msgstr ""
+
+#: footer.php:70
+msgid "18 Bedford Row, London WC1R"
+msgstr ""
+
+#: footer.php:75
+msgid "Studio"
+msgstr ""
+
+#: footer.php:77
+#: template-parts/home/hero.php:45
+msgid "London · Berlin · New York"
+msgstr ""
+
+#: footer.php:78
+msgid "Mon–Fri, 09:00–18:00"
+msgstr ""
+
+#: footer.php:79
+msgid "New engagements: Q3"
+msgstr ""
+
+#: footer.php:90
+msgid "Strategy · Transformation · Leadership"
+msgstr ""
+
+#: front-page.php:51
+#: index.php:17
+msgid "Journal"
+msgstr ""
+
+#: front-page.php:52
+#: inc/template-tags.php:147
+#: index.php:11
+#: template-parts/footer-menu-content.php:15
+#: template-parts/home/insights.php:27
+msgid "Insights"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:33
+msgid "Primary"
+msgstr ""
+
+#: header.php:51
+msgid "Open menu"
+msgstr ""
+
+#: header.php:60
+msgid "Menu"
+msgstr ""
+
+#: header.php:64
+msgid "Close menu"
+msgstr ""
+
+#: header.php:69
+msgid "Mobile"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "Konzult options"
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "Brand, header and footer details for this theme."
+msgstr ""
+
+#: inc/customizer.php:33
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Button label"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Button link"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "Use #contact to scroll to the closing call to action, or paste a full URL."
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Phone number"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Shown beside the button on large screens. Leave empty to hide."
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Short description"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Copyright text"
+msgstr ""
+
+#. translators: %s: social network name.
+#: inc/customizer.php:142
+#, php-format
+msgid "%s URL"
+msgstr ""
+
+#: inc/customizer.php:153
+msgid "Brand colour"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Used for links, italics and small accents. The rest of the palette stays neutral on purpose."
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Accent colour"
+msgstr ""
+
+#: inc/setup.php:55
+msgid "Primary menu"
+msgstr ""
+
+#: inc/setup.php:56
+msgid "Footer menu"
+msgstr ""
+
+#: inc/setup.php:57
+msgid "Social menu"
+msgstr ""
+
+#. translators: %d: footer column number.
+#: inc/setup.php:77
+#, php-format
+msgid "Footer column %d"
+msgstr ""
+
+#: inc/setup.php:79
+msgid "Optional footer column. Leave empty to keep the default layout."
+msgstr ""
+
+#: inc/template-tags.php:19
+#: template-parts/home/cta.php:36
+msgid "Book a consultation"
+msgstr ""
+
+#: inc/template-tags.php:22
+msgid "An independent strategy practice for leadership teams who would rather make a clear decision than a comfortable one."
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Konzult. All rights reserved."
+msgstr ""
+
+#: inc/template-tags.php:131
+msgid "Home"
+msgstr ""
+
+#: inc/template-tags.php:144
+#: template-parts/footer-menu-content.php:12
+msgid "Services"
+msgstr ""
+
+#: inc/template-tags.php:145
+#: template-parts/footer-menu-content.php:13
+msgid "Approach"
+msgstr ""
+
+#: inc/template-tags.php:146
+#: template-parts/footer-menu-content.php:14
+msgid "About"
+msgstr ""
+
+#. translators: %d: number of minutes.
+#: inc/template-tags.php:215
+#, php-format
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:281
+#: single.php:83
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:282
+#: single.php:84
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:295
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/template-tags.php:296
+msgid "X"
+msgstr ""
+
+#: inc/template-tags.php:297
+msgid "Instagram"
+msgstr ""
+
+#: index.php:19
+#: template-parts/home/insights.php:31
+msgid "Short essays on strategy, operating models and the unglamorous work of making decisions stick."
+msgstr ""
+
+#: search.php:14
+#: searchform.php:24
+msgid "Search"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:16
+#, php-format
+msgid "Results for “%s”"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search the site"
+msgstr ""
+
+#: searchform.php:21
+msgid "Search insights…"
+msgstr ""
+
+#: single.php:14
+msgid "Insight"
+msgstr ""
+
+#: single.php:70
+msgid "Written by"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr ""
+
+#: template-parts/content/none.php:9
+msgid "Nothing found"
+msgstr ""
+
+#: template-parts/content/none.php:10
+msgid "That page isn’t here."
+msgstr ""
+
+#: template-parts/content/none.php:11
+msgid "Try a different search, or head back to the homepage."
+msgstr ""
+
+#: template-parts/home/clients.php:19
+msgid "Selected clients"
+msgstr ""
+
+#: template-parts/home/clients.php:21
+msgid "Trusted by leadership teams at"
+msgstr ""
+
+#: template-parts/home/cta.php:10
+msgid "Consultation request"
+msgstr ""
+
+#: template-parts/home/cta.php:18
+msgid "Next step"
+msgstr ""
+
+#: template-parts/home/cta.php:24
+msgid "Let’s find the <em>next right move</em>."
+msgstr ""
+
+#: template-parts/home/cta.php:31
+msgid "A thirty-minute conversation, no deck required. We’ll tell you honestly whether we can help — and what we would do first."
+msgstr ""
+
+#: template-parts/home/cta.php:46
+msgid "Or call"
+msgstr ""
+
+#: template-parts/home/hero.php:16
+msgid "Independent strategy consultancy"
+msgstr ""
+
+#: template-parts/home/hero.php:22
+msgid "Clarity for the decisions that <em>matter</em>."
+msgstr ""
+
+#: template-parts/home/hero.php:29
+msgid "We help leadership teams find the signal in the noise, choose a direction, and build the operating discipline to act on it. Senior counsel — no layers, no theatre."
+msgstr ""
+
+#: template-parts/home/hero.php:38
+msgid "Explore the practice"
+msgstr ""
+
+#: template-parts/home/hero.php:44
+msgid "Est. 2007"
+msgstr ""
+
+#: template-parts/home/hero.php:46
+msgid "Senior-only teams"
+msgstr ""
+
+#: template-parts/home/hero.php:61
+msgid "Fig. 01"
+msgstr ""
+
+#: template-parts/home/hero.php:62
+msgid "Clarity is a structure, not a slogan."
+msgstr ""
+
+#: template-parts/home/hero.php:68
+msgid "client retention across 140+ engagements"
+msgstr ""
+
+#: template-parts/home/insights.php:30
+msgid "Notes on the work."
+msgstr ""
+
+#: template-parts/home/insights.php:33
+msgid "All insights"
+msgstr ""
+
+#: template-parts/home/intro.php:14
+msgid "Point of view"
+msgstr ""
+
+#: template-parts/home/intro.php:16
+msgid "Konzult — a practice, not a platform."
+msgstr ""
+
+#: template-parts/home/intro.php:23
+msgid "Most strategies don’t fail in the boardroom. They fail in the hallway — in the thousand small decisions that follow."
+msgstr ""
+
+#: template-parts/home/intro.php:30
+msgid "So we do two things unusually well. We make the choice clear enough to defend, and we stay close enough to make sure it survives contact with Monday morning."
+msgstr ""
+
+#: template-parts/home/intro.php:31
+msgid "No associate pyramid. No seventy-slide reveal. A small senior team, a short list of real options, and a plan your people can actually run without us in the room."
+msgstr ""
+
+#: template-parts/home/intro.php:37
+msgid "Senior people only. The person you meet is the person who does the work."
+msgstr ""
+
+#: template-parts/home/intro.php:41
+msgid "Plain language. If it needs a glossary, it isn’t a strategy."
+msgstr ""
+
+#: template-parts/home/intro.php:45
+msgid "Skin in the game. We stay accountable for outcomes, not slide counts."
+msgstr ""
+
+#: template-parts/home/process.php:11
+msgid "Diagnose"
+msgstr ""
+
+#: template-parts/home/process.php:12
+msgid "Two weeks of interviews, data and honest questions. We tell you what we find — not what you hoped to hear."
+msgstr ""
+
+#: template-parts/home/process.php:13
+msgid "Weeks 1–2"
+msgstr ""
+
+#: template-parts/home/process.php:17
+msgid "Design"
+msgstr ""
+
+#: template-parts/home/process.php:18
+msgid "A short list of real options, sized and stress-tested. Then one plan with owners, milestones and a definition of done."
+msgstr ""
+
+#: template-parts/home/process.php:19
+msgid "Weeks 3–6"
+msgstr ""
+
+#: template-parts/home/process.php:23
+msgid "Deliver"
+msgstr ""
+
+#: template-parts/home/process.php:24
+msgid "We stay through execution — in the room, on the ground, accountable alongside your team."
+msgstr ""
+
+#: template-parts/home/process.php:25
+msgid "From week 7"
+msgstr ""
+
+#: template-parts/home/process.php:35
+msgid "How we work"
+msgstr ""
+
+#: template-parts/home/process.php:38
+msgid "A short, honest process."
+msgstr ""
+
+#: template-parts/home/process.php:39
+msgid "Three phases, no theatre. You will always know what we are doing, why it matters, and what happens next."
+msgstr ""
+
+#: template-parts/home/quote.php:10
+msgid "Client perspective"
+msgstr ""
+
+#: template-parts/home/quote.php:14
+msgid "“Konzult did in six weeks what our previous advisors couldn’t do in a year: they gave us a decision we could actually make — and then helped us hold to it.”"
+msgstr ""
+
+#: template-parts/home/quote.php:20
+msgid "Chief Operating Officer, Meridian Group"
+msgstr ""
+
+#: template-parts/home/services.php:11
+msgid "Growth strategy"
+msgstr ""
+
+#: template-parts/home/services.php:12
+msgid "Where to play, how to win, and what to stop doing. Market mapping, portfolio choices and a plan your team can defend."
+msgstr ""
+
+#: template-parts/home/services.php:13
+msgid "6–12 weeks"
+msgstr ""
+
+#: template-parts/home/services.php:17
+msgid "Operating model"
+msgstr ""
+
+#: template-parts/home/services.php:18
+msgid "Structure, decision rights and ways of working that make the strategy survive contact with Monday morning."
+msgstr ""
+
+#: template-parts/home/services.php:19
+msgid "8–16 weeks"
+msgstr ""
+
+#: template-parts/home/services.php:23
+msgid "Digital & data"
+msgstr ""
+
+#: template-parts/home/services.php:24
+msgid "Practical transformation — the systems, data foundations and automation that remove friction instead of adding process."
+msgstr ""
+
+#: template-parts/home/services.php:25
+msgid "3–9 months"
+msgstr ""
+
+#: template-parts/home/services.php:29
+msgid "Leadership advisory"
+msgstr ""
+
+#: template-parts/home/services.php:30
+msgid "Counsel for founders, boards and executive teams through transitions, succession and the moments that define a company."
+msgstr ""
+
+#: template-parts/home/services.php:31
+msgid "Ongoing"
+msgstr ""
+
+#: template-parts/home/services.php:41
+msgid "What we do"
+msgstr ""
+
+#: template-parts/home/services.php:44
+msgid "Four ways we help."
+msgstr ""
+
+#: template-parts/home/services.php:45
+msgid "Every engagement is scoped around one decision. We start narrow, stay senior, and leave your team stronger than we found it."
+msgstr ""
+
+#. translators: %s: service name.
+#: template-parts/home/services.php:52
+#, php-format
+msgid "Discuss %s"
+msgstr ""
+
+#: template-parts/home/stats.php:12
+msgid "client retention"
+msgstr ""
+
+#: template-parts/home/stats.php:17
+msgid "engagements delivered"
+msgstr ""
+
+#: template-parts/home/stats.php:22
+msgid "years in practice"
+msgstr ""
+
+#: template-parts/home/stats.php:27
+msgid "average client rating"
+msgstr ""
+
+#: template-parts/home/stats.php:31
+msgid "Practice in numbers"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink soft"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Muted"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Paper"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Paper deep"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Pine"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sienna"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Paper fade"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Pine fade"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Instrument Serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Lead"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 3"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 1"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Tight"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Room"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Section"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Wide"
+msgstr ""
