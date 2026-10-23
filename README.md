@@ -44,3 +44,23 @@ Footer columns appear automatically if you add widgets to **Footer column 1–3*
 ### Brand colour
 **Konzult options → Brand colour** — one accent colour drives links, italics, hovers and small marks. The neutral palette is intentionally fixed so the design holds together.
 
+## 3. Using Elementor (free)
+
+The theme is built for Elementor free:
+
+- Pages built with Elementor render inside the theme's header and footer.
+- Elementor's **Canvas** and **Full Width** page templates are available for landing pages.
+- The included starter template recreates the homepage design in Elementor so you can edit it visually.
+
+### Import the homepage template
+
+1. **Templates → Saved Templates → Import Templates**
+2. Choose `elementor/templates/home.json`
+3. Create a new page called *Home*, then **Edit with Elementor**
+4. Click the folder icon → **My Templates** → insert **Konzult — Home**
+5. Publish, then **Settings → Reading → Your homepage displays → A static page** and select *Home*
+
+The template is typographic on purpose: it ships without stock photography, so nothing breaks on import and you can drop in your own imagery.
+
+> **Elementor Pro:** if Pro is active, the theme registers all core Theme Builder locations. You can then build the header, footer, single post and archive templates in Elementor. On free Elementor those locations stay in PHP, which is why the theme's chrome is fully designed and configurable in the Customizer.
+
