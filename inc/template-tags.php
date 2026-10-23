@@ -271,3 +271,52 @@ function konzult_author_avatar( $author_id = 0, $size = 72 ) {
 	);
 }
 
+/**
+ * Pagination with consistent markup.
+ */
+function konzult_pagination() {
+	the_posts_pagination(
+		array(
+			'mid_size'  => 1,
+			'prev_text' => esc_html__( 'Previous', 'konzult' ),
+			'next_text' => esc_html__( 'Next', 'konzult' ),
+			'class'     => 'k-pagination',
+		)
+	);
+}
+
+/**
+ * Social profiles from the Customizer.
+ *
+ * @return array<int,array{label:string,url:string,icon:string}>
+ */
+function konzult_social_profiles() {
+	$networks = array(
+		'linkedin'  => __( 'LinkedIn', 'konzult' ),
+		'x'         => __( 'X', 'konzult' ),
+		'instagram' => __( 'Instagram', 'konzult' ),
+	);
+	$profiles = array();
+
+	foreach ( $networks as $key => $label ) {
+		$url = konzult_option( 'social_' . $key );
+		if ( $url ) {
+			$profiles[] = array(
+				'label' => $label,
+				'url'   => $url,
+				'icon'  => $key,
+			);
+		}
+	}
+
+	return $profiles;
+}
+
+/**
+ * Is Elementor providing the footer widgets? Used for layout classes.
+ *
+ * @return bool
+ */
+function konzult_has_footer_widgets() {
+	return is_active_sidebar( 'footer-1' ) || is_active_sidebar( 'footer-2' ) || is_active_sidebar( 'footer-3' );
+}
