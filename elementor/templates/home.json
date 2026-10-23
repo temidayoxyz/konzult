@@ -1,0 +1,2257 @@
+{
+	"content": [
+		{
+			"id": "100000f",
+			"elType": "container",
+			"settings": {
+				"content_width": "boxed",
+				"flex_direction": "row",
+				"flex_align_items": "center",
+				"flex_gap": {
+					"column": "64",
+					"row": "64",
+					"isLinked": true,
+					"unit": "px",
+					"size": 64
+				},
+				"padding": {
+					"unit": "px",
+					"top": "96",
+					"right": "0",
+					"bottom": "88",
+					"left": "0",
+					"isLinked": false
+				},
+				"background_background": "classic",
+				"background_color": "#F6F3EC"
+			},
+			"elements": [
+				{
+					"id": "1000005",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "26",
+							"row": "26",
+							"isLinked": true,
+							"unit": "px",
+							"size": 26
+						},
+						"width": {
+							"unit": "%",
+							"size": 56,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "1000000",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>Independent strategy consultancy</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 12,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 2.2,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						},
+						{
+							"id": "1000001",
+							"elType": "widget",
+							"widgetType": "heading",
+							"settings": {
+								"title": "Clarity for the decisions that <em>matter</em>.",
+								"header_size": "h1",
+								"title_color": "#12150F",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 76,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 0.95,
+									"sizes": []
+								},
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": -2,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "1000002",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>We help leadership teams find the signal in the noise, choose a direction, and build the operating discipline to act on it. Senior counsel — no layers, no theatre.</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 17,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1.7,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "1000003",
+							"elType": "widget",
+							"widgetType": "button",
+							"settings": {
+								"text": "Book a consultation",
+								"link": {
+									"url": "#contact",
+									"is_external": "",
+									"nofollow": "",
+									"custom_attributes": ""
+								},
+								"align": "left",
+								"size": "md",
+								"background_color": "#12150F",
+								"button_text_color": "#F6F3EC",
+								"hover_color": "#F6F3EC",
+								"button_background_hover_color": "#1E4A3A",
+								"border_radius": {
+									"unit": "px",
+									"top": "2",
+									"right": "2",
+									"bottom": "2",
+									"left": "2",
+									"isLinked": true
+								},
+								"text_padding": {
+									"unit": "px",
+									"top": "17",
+									"right": "26",
+									"bottom": "17",
+									"left": "28",
+									"isLinked": false
+								},
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 15,
+									"sizes": []
+								},
+								"typography_font_weight": "500"
+							},
+							"elements": []
+						},
+						{
+							"id": "1000004",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>Est. 2007 &nbsp;·&nbsp; London &nbsp;·&nbsp; Berlin &nbsp;·&nbsp; New York</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 11,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 1.2,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				},
+				{
+					"id": "100000e",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "32",
+							"row": "32",
+							"isLinked": true,
+							"unit": "px",
+							"size": 32
+						},
+						"width": {
+							"unit": "%",
+							"size": 44,
+							"sizes": []
+						},
+						"background_background": "classic",
+						"background_color": "#EDE8DC",
+						"padding": {
+							"unit": "px",
+							"top": "44",
+							"right": "44",
+							"bottom": "44",
+							"left": "44",
+							"isLinked": true
+						},
+						"min_height": {
+							"unit": "px",
+							"size": 560,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "1000008",
+							"elType": "container",
+							"settings": {
+								"content_width": "full",
+								"flex_direction": "row",
+								"flex_justify_content": "space-between",
+								"flex_gap": {
+									"column": "16",
+									"row": "16",
+									"isLinked": true,
+									"unit": "px",
+									"size": 16
+								},
+								"padding": {
+									"unit": "px",
+									"top": "0",
+									"right": "0",
+									"bottom": "0",
+									"left": "0",
+									"isLinked": true
+								}
+							},
+							"elements": [
+								{
+									"id": "1000006",
+									"elType": "widget",
+									"widgetType": "text-editor",
+									"settings": {
+										"editor": "<p>Fig. 01</p>",
+										"text_color": "#5C6158",
+										"typography_typography": "custom",
+										"typography_font_family": "Inter",
+										"typography_font_size": {
+											"unit": "px",
+											"size": 11,
+											"sizes": []
+										},
+										"typography_font_weight": "500",
+										"typography_letter_spacing": {
+											"unit": "px",
+											"size": 1.5,
+											"sizes": []
+										},
+										"typography_text_transform": "uppercase"
+									},
+									"elements": []
+								},
+								{
+									"id": "1000007",
+									"elType": "widget",
+									"widgetType": "text-editor",
+									"settings": {
+										"editor": "<p>Practice note</p>",
+										"text_color": "#5C6158",
+										"typography_typography": "custom",
+										"typography_font_family": "Inter",
+										"typography_font_size": {
+											"unit": "px",
+											"size": 11,
+											"sizes": []
+										},
+										"typography_font_weight": "500",
+										"typography_letter_spacing": {
+											"unit": "px",
+											"size": 1.5,
+											"sizes": []
+										},
+										"typography_text_transform": "uppercase"
+									},
+									"elements": []
+								}
+							],
+							"isInner": true
+						},
+						{
+							"id": "100000b",
+							"elType": "container",
+							"settings": {
+								"content_width": "full",
+								"flex_direction": "column",
+								"flex_gap": {
+									"column": "8",
+									"row": "8",
+									"isLinked": true,
+									"unit": "px",
+									"size": 8
+								},
+								"padding": {
+									"unit": "px",
+									"top": "0",
+									"right": "0",
+									"bottom": "0",
+									"left": "0",
+									"isLinked": true
+								}
+							},
+							"elements": [
+								{
+									"id": "1000009",
+									"elType": "widget",
+									"widgetType": "heading",
+									"settings": {
+										"title": "92<span style=\"color:#1E4A3A\">%</span>",
+										"header_size": "h2",
+										"title_color": "#12150F",
+										"typography_typography": "custom",
+										"typography_font_family": "Instrument Serif",
+										"typography_font_size": {
+											"unit": "px",
+											"size": 132,
+											"sizes": []
+										},
+										"typography_line_height": {
+											"unit": "em",
+											"size": 0.9,
+											"sizes": []
+										},
+										"typography_letter_spacing": {
+											"unit": "px",
+											"size": -5,
+											"sizes": []
+										}
+									},
+									"elements": []
+								},
+								{
+									"id": "100000a",
+									"elType": "widget",
+									"widgetType": "text-editor",
+									"settings": {
+										"editor": "<p>client retention across 140+ engagements</p>",
+										"text_color": "#5C6158",
+										"typography_typography": "custom",
+										"typography_font_family": "Inter",
+										"typography_font_size": {
+											"unit": "px",
+											"size": 14,
+											"sizes": []
+										},
+										"typography_line_height": {
+											"unit": "em",
+											"size": 1.5,
+											"sizes": []
+										}
+									},
+									"elements": []
+								}
+							],
+							"isInner": true
+						},
+						{
+							"id": "100000c",
+							"elType": "widget",
+							"widgetType": "divider",
+							"settings": {
+								"color": "rgba(18,21,15,0.16)",
+								"weight": {
+									"unit": "px",
+									"size": 1,
+									"sizes": []
+								},
+								"width": {
+									"unit": "%",
+									"size": 100,
+									"sizes": []
+								},
+								"gap": {
+									"unit": "px",
+									"size": 20,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "100000d",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>Clarity is a structure, not a slogan.</p>",
+								"text_color": "#12150F",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 24,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1.2,
+									"sizes": []
+								}
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				}
+			],
+			"isInner": false
+		},
+		{
+			"id": "1000013",
+			"elType": "container",
+			"settings": {
+				"content_width": "boxed",
+				"padding": {
+					"unit": "px",
+					"top": "30",
+					"right": "0",
+					"bottom": "30",
+					"left": "0",
+					"isLinked": false
+				},
+				"border_border": "solid",
+				"border_width": {
+					"unit": "px",
+					"top": "1",
+					"right": "0",
+					"bottom": "1",
+					"left": "0",
+					"isLinked": false
+				},
+				"border_color": "rgba(18,21,15,0.14)"
+			},
+			"elements": [
+				{
+					"id": "1000012",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "row",
+						"flex_align_items": "center",
+						"flex_gap": {
+							"column": "40",
+							"row": "40",
+							"isLinked": true,
+							"unit": "px",
+							"size": 40
+						},
+						"flex_justify_content": "space-between"
+					},
+					"elements": [
+						{
+							"id": "1000010",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>Trusted by leadership teams at</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 11,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 1.6,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						},
+						{
+							"id": "1000011",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>Northwind &nbsp;·&nbsp; Meridian Group &nbsp;·&nbsp; Kestrel &nbsp;·&nbsp; Alba &amp; Co &nbsp;·&nbsp; Vantage &nbsp;·&nbsp; Ossa</p>",
+								"text_color": "#2B3028",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 22,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1.3,
+									"sizes": []
+								}
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				}
+			],
+			"isInner": false
+		},
+		{
+			"id": "100003d",
+			"elType": "container",
+			"settings": {
+				"content_width": "boxed",
+				"flex_direction": "column",
+				"flex_gap": {
+					"column": "0",
+					"row": "0",
+					"isLinked": true,
+					"unit": "px",
+					"size": 0
+				},
+				"padding": {
+					"unit": "px",
+					"top": "96",
+					"right": "0",
+					"bottom": "96",
+					"left": "0",
+					"isLinked": false
+				}
+			},
+			"elements": [
+				{
+					"id": "1000017",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "20",
+							"row": "20",
+							"isLinked": true,
+							"unit": "px",
+							"size": 20
+						},
+						"width": {
+							"unit": "%",
+							"size": 100,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "1000014",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>03 — What we do</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 12,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 2.2,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						},
+						{
+							"id": "1000015",
+							"elType": "widget",
+							"widgetType": "heading",
+							"settings": {
+								"title": "Four ways we help.",
+								"header_size": "h2",
+								"title_color": "#12150F",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 54,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1,
+									"sizes": []
+								},
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": -1.6,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "1000016",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>Every engagement is scoped around one decision. We start narrow, stay senior, and leave your team stronger than we found it.</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 17,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1.7,
+									"sizes": []
+								}
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				},
+				{
+					"id": "100003c",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "0",
+							"row": "0",
+							"isLinked": true,
+							"unit": "px",
+							"size": 0
+						},
+						"padding": {
+							"unit": "px",
+							"top": "48",
+							"right": "0",
+							"bottom": "0",
+							"left": "0",
+							"isLinked": false
+						}
+					},
+					"elements": [
+						{
+							"id": "1000020",
+							"elType": "container",
+							"settings": {
+								"content_width": "full",
+								"flex_direction": "row",
+								"flex_align_items": "center",
+								"flex_gap": {
+									"column": "24",
+									"row": "24",
+									"isLinked": true,
+									"unit": "px",
+									"size": 24
+								},
+								"border_border": "solid",
+								"border_width": {
+									"unit": "px",
+									"top": "1",
+									"right": "0",
+									"bottom": "0",
+									"left": "0",
+									"isLinked": false
+								},
+								"border_color": "rgba(18,21,15,0.14)",
+								"padding": {
+									"unit": "px",
+									"top": "30",
+									"right": "0",
+									"bottom": "30",
+									"left": "0",
+									"isLinked": false
+								}
+							},
+							"elements": [
+								{
+									"id": "1000019",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 8,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000018",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>01</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 11,
+													"sizes": []
+												},
+												"typography_font_weight": "500",
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": 1.4,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "100001b",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 30,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "100001a",
+											"elType": "widget",
+											"widgetType": "heading",
+											"settings": {
+												"title": "Growth strategy",
+												"header_size": "h3",
+												"title_color": "#12150F",
+												"typography_typography": "custom",
+												"typography_font_family": "Instrument Serif",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 32,
+													"sizes": []
+												},
+												"typography_line_height": {
+													"unit": "em",
+													"size": 1.05,
+													"sizes": []
+												},
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": -0.6,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "100001d",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 46,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "100001c",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>Where to play, how to win, and what to stop doing. Market mapping, portfolio choices and a plan your team can defend.</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 15,
+													"sizes": []
+												},
+												"typography_line_height": {
+													"unit": "em",
+													"size": 1.6,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "100001f",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 16,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "100001e",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>6–12 weeks</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 11,
+													"sizes": []
+												},
+												"typography_font_weight": "500",
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": 1,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								}
+							],
+							"isInner": true
+						},
+						{
+							"id": "1000029",
+							"elType": "container",
+							"settings": {
+								"content_width": "full",
+								"flex_direction": "row",
+								"flex_align_items": "center",
+								"flex_gap": {
+									"column": "24",
+									"row": "24",
+									"isLinked": true,
+									"unit": "px",
+									"size": 24
+								},
+								"border_border": "solid",
+								"border_width": {
+									"unit": "px",
+									"top": "1",
+									"right": "0",
+									"bottom": "0",
+									"left": "0",
+									"isLinked": false
+								},
+								"border_color": "rgba(18,21,15,0.14)",
+								"padding": {
+									"unit": "px",
+									"top": "30",
+									"right": "0",
+									"bottom": "30",
+									"left": "0",
+									"isLinked": false
+								}
+							},
+							"elements": [
+								{
+									"id": "1000022",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 8,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000021",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>02</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 11,
+													"sizes": []
+												},
+												"typography_font_weight": "500",
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": 1.4,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "1000024",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 30,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000023",
+											"elType": "widget",
+											"widgetType": "heading",
+											"settings": {
+												"title": "Operating model",
+												"header_size": "h3",
+												"title_color": "#12150F",
+												"typography_typography": "custom",
+												"typography_font_family": "Instrument Serif",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 32,
+													"sizes": []
+												},
+												"typography_line_height": {
+													"unit": "em",
+													"size": 1.05,
+													"sizes": []
+												},
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": -0.6,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "1000026",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 46,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000025",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>Structure, decision rights and ways of working that make the strategy survive contact with Monday morning.</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 15,
+													"sizes": []
+												},
+												"typography_line_height": {
+													"unit": "em",
+													"size": 1.6,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "1000028",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 16,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000027",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>8–16 weeks</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 11,
+													"sizes": []
+												},
+												"typography_font_weight": "500",
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": 1,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								}
+							],
+							"isInner": true
+						},
+						{
+							"id": "1000032",
+							"elType": "container",
+							"settings": {
+								"content_width": "full",
+								"flex_direction": "row",
+								"flex_align_items": "center",
+								"flex_gap": {
+									"column": "24",
+									"row": "24",
+									"isLinked": true,
+									"unit": "px",
+									"size": 24
+								},
+								"border_border": "solid",
+								"border_width": {
+									"unit": "px",
+									"top": "1",
+									"right": "0",
+									"bottom": "0",
+									"left": "0",
+									"isLinked": false
+								},
+								"border_color": "rgba(18,21,15,0.14)",
+								"padding": {
+									"unit": "px",
+									"top": "30",
+									"right": "0",
+									"bottom": "30",
+									"left": "0",
+									"isLinked": false
+								}
+							},
+							"elements": [
+								{
+									"id": "100002b",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 8,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "100002a",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>03</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 11,
+													"sizes": []
+												},
+												"typography_font_weight": "500",
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": 1.4,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "100002d",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 30,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "100002c",
+											"elType": "widget",
+											"widgetType": "heading",
+											"settings": {
+												"title": "Digital &amp; data",
+												"header_size": "h3",
+												"title_color": "#12150F",
+												"typography_typography": "custom",
+												"typography_font_family": "Instrument Serif",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 32,
+													"sizes": []
+												},
+												"typography_line_height": {
+													"unit": "em",
+													"size": 1.05,
+													"sizes": []
+												},
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": -0.6,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "100002f",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 46,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "100002e",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>Practical transformation — the systems, data foundations and automation that remove friction instead of adding process.</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 15,
+													"sizes": []
+												},
+												"typography_line_height": {
+													"unit": "em",
+													"size": 1.6,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "1000031",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 16,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000030",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>3–9 months</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 11,
+													"sizes": []
+												},
+												"typography_font_weight": "500",
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": 1,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								}
+							],
+							"isInner": true
+						},
+						{
+							"id": "100003b",
+							"elType": "container",
+							"settings": {
+								"content_width": "full",
+								"flex_direction": "row",
+								"flex_align_items": "center",
+								"flex_gap": {
+									"column": "24",
+									"row": "24",
+									"isLinked": true,
+									"unit": "px",
+									"size": 24
+								},
+								"border_border": "solid",
+								"border_width": {
+									"unit": "px",
+									"top": "1",
+									"right": "0",
+									"bottom": "0",
+									"left": "0",
+									"isLinked": false
+								},
+								"border_color": "rgba(18,21,15,0.14)",
+								"padding": {
+									"unit": "px",
+									"top": "30",
+									"right": "0",
+									"bottom": "30",
+									"left": "0",
+									"isLinked": false
+								}
+							},
+							"elements": [
+								{
+									"id": "1000034",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 8,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000033",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>04</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 11,
+													"sizes": []
+												},
+												"typography_font_weight": "500",
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": 1.4,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "1000036",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 30,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000035",
+											"elType": "widget",
+											"widgetType": "heading",
+											"settings": {
+												"title": "Leadership advisory",
+												"header_size": "h3",
+												"title_color": "#12150F",
+												"typography_typography": "custom",
+												"typography_font_family": "Instrument Serif",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 32,
+													"sizes": []
+												},
+												"typography_line_height": {
+													"unit": "em",
+													"size": 1.05,
+													"sizes": []
+												},
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": -0.6,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "1000038",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 46,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000037",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>Counsel for founders, boards and executive teams through transitions, succession and the moments that define a company.</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 15,
+													"sizes": []
+												},
+												"typography_line_height": {
+													"unit": "em",
+													"size": 1.6,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								},
+								{
+									"id": "100003a",
+									"elType": "container",
+									"settings": {
+										"content_width": "full",
+										"flex_direction": "column",
+										"flex_gap": {
+											"column": "18",
+											"row": "18",
+											"isLinked": true,
+											"unit": "px",
+											"size": 18
+										},
+										"width": {
+											"unit": "%",
+											"size": 16,
+											"sizes": []
+										}
+									},
+									"elements": [
+										{
+											"id": "1000039",
+											"elType": "widget",
+											"widgetType": "text-editor",
+											"settings": {
+												"editor": "<p>Ongoing</p>",
+												"text_color": "#5C6158",
+												"typography_typography": "custom",
+												"typography_font_family": "Inter",
+												"typography_font_size": {
+													"unit": "px",
+													"size": 11,
+													"sizes": []
+												},
+												"typography_font_weight": "500",
+												"typography_letter_spacing": {
+													"unit": "px",
+													"size": 1,
+													"sizes": []
+												}
+											},
+											"elements": []
+										}
+									],
+									"isInner": true
+								}
+							],
+							"isInner": true
+						}
+					],
+					"isInner": true
+				}
+			],
+			"isInner": false
+		},
+		{
+			"id": "100004a",
+			"elType": "container",
+			"settings": {
+				"content_width": "boxed",
+				"flex_direction": "row",
+				"flex_gap": {
+					"column": "32",
+					"row": "32",
+					"isLinked": true,
+					"unit": "px",
+					"size": 32
+				},
+				"padding": {
+					"unit": "px",
+					"top": "44",
+					"right": "0",
+					"bottom": "44",
+					"left": "0",
+					"isLinked": false
+				},
+				"border_border": "solid",
+				"border_width": {
+					"unit": "px",
+					"top": "1",
+					"right": "0",
+					"bottom": "1",
+					"left": "0",
+					"isLinked": false
+				},
+				"border_color": "rgba(18,21,15,0.14)"
+			},
+			"elements": [
+				{
+					"id": "1000040",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "8",
+							"row": "8",
+							"isLinked": true,
+							"unit": "px",
+							"size": 8
+						},
+						"width": {
+							"unit": "%",
+							"size": 25,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "100003e",
+							"elType": "widget",
+							"widgetType": "heading",
+							"settings": {
+								"title": "92<span style=\"color:#1E4A3A\">%</span>",
+								"header_size": "h2",
+								"title_color": "#12150F",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 58,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1,
+									"sizes": []
+								},
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": -2,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "100003f",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>client retention</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 11,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 1.4,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				},
+				{
+					"id": "1000043",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "8",
+							"row": "8",
+							"isLinked": true,
+							"unit": "px",
+							"size": 8
+						},
+						"width": {
+							"unit": "%",
+							"size": 25,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "1000041",
+							"elType": "widget",
+							"widgetType": "heading",
+							"settings": {
+								"title": "140+",
+								"header_size": "h2",
+								"title_color": "#12150F",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 58,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1,
+									"sizes": []
+								},
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": -2,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "1000042",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>engagements delivered</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 11,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 1.4,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				},
+				{
+					"id": "1000046",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "8",
+							"row": "8",
+							"isLinked": true,
+							"unit": "px",
+							"size": 8
+						},
+						"width": {
+							"unit": "%",
+							"size": 25,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "1000044",
+							"elType": "widget",
+							"widgetType": "heading",
+							"settings": {
+								"title": "18",
+								"header_size": "h2",
+								"title_color": "#12150F",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 58,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1,
+									"sizes": []
+								},
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": -2,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "1000045",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>years in practice</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 11,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 1.4,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				},
+				{
+					"id": "1000049",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "8",
+							"row": "8",
+							"isLinked": true,
+							"unit": "px",
+							"size": 8
+						},
+						"width": {
+							"unit": "%",
+							"size": 25,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "1000047",
+							"elType": "widget",
+							"widgetType": "heading",
+							"settings": {
+								"title": "4.9<span style=\"color:#1E4A3A\">/5</span>",
+								"header_size": "h2",
+								"title_color": "#12150F",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 58,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1,
+									"sizes": []
+								},
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": -2,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "1000048",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>average client rating</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 11,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 1.4,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				}
+			],
+			"isInner": false
+		},
+		{
+			"id": "1000050",
+			"elType": "container",
+			"settings": {
+				"content_width": "boxed",
+				"flex_direction": "row",
+				"flex_gap": {
+					"column": "48",
+					"row": "48",
+					"isLinked": true,
+					"unit": "px",
+					"size": 48
+				},
+				"padding": {
+					"unit": "px",
+					"top": "96",
+					"right": "0",
+					"bottom": "96",
+					"left": "0",
+					"isLinked": false
+				},
+				"background_background": "classic",
+				"background_color": "#EDE8DC"
+			},
+			"elements": [
+				{
+					"id": "100004c",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "18",
+							"row": "18",
+							"isLinked": true,
+							"unit": "px",
+							"size": 18
+						},
+						"width": {
+							"unit": "%",
+							"size": 24,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "100004b",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>Client perspective</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 11,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 1.6,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				},
+				{
+					"id": "100004f",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "28",
+							"row": "28",
+							"isLinked": true,
+							"unit": "px",
+							"size": 28
+						},
+						"width": {
+							"unit": "%",
+							"size": 76,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "100004d",
+							"elType": "widget",
+							"widgetType": "heading",
+							"settings": {
+								"title": "“Konzult did in six weeks what our previous advisors couldn’t do in a year: they gave us a decision we could actually make — and then helped us hold to it.”",
+								"header_size": "h2",
+								"title_color": "#12150F",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 40,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1.16,
+									"sizes": []
+								},
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": -1,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "100004e",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p><strong>Elena Voss</strong> — Chief Operating Officer, Meridian Group</p>",
+								"text_color": "#5C6158",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 14,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1.5,
+									"sizes": []
+								}
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				}
+			],
+			"isInner": false
+		},
+		{
+			"id": "1000057",
+			"elType": "container",
+			"settings": {
+				"content_width": "boxed",
+				"flex_direction": "column",
+				"flex_gap": {
+					"column": "0",
+					"row": "0",
+					"isLinked": true,
+					"unit": "px",
+					"size": 0
+				},
+				"padding": {
+					"unit": "px",
+					"top": "96",
+					"right": "0",
+					"bottom": "96",
+					"left": "0",
+					"isLinked": false
+				},
+				"background_background": "classic",
+				"background_color": "#12150F"
+			},
+			"elements": [
+				{
+					"id": "1000056",
+					"elType": "container",
+					"settings": {
+						"content_width": "full",
+						"flex_direction": "column",
+						"flex_gap": {
+							"column": "24",
+							"row": "24",
+							"isLinked": true,
+							"unit": "px",
+							"size": 24
+						},
+						"width": {
+							"unit": "%",
+							"size": 100,
+							"sizes": []
+						}
+					},
+					"elements": [
+						{
+							"id": "1000051",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>06 — Next step</p>",
+								"text_color": "rgba(246,243,236,0.65)",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 12,
+									"sizes": []
+								},
+								"typography_font_weight": "500",
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": 2,
+									"sizes": []
+								},
+								"typography_text_transform": "uppercase"
+							},
+							"elements": []
+						},
+						{
+							"id": "1000052",
+							"elType": "widget",
+							"widgetType": "heading",
+							"settings": {
+								"title": "Let’s find the <em>next right move</em>.",
+								"header_size": "h2",
+								"title_color": "#F6F3EC",
+								"typography_typography": "custom",
+								"typography_font_family": "Instrument Serif",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 66,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 0.98,
+									"sizes": []
+								},
+								"typography_letter_spacing": {
+									"unit": "px",
+									"size": -2.4,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "1000053",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>A thirty-minute conversation, no deck required. We’ll tell you honestly whether we can help — and what we would do first.</p>",
+								"text_color": "rgba(246,243,236,0.7)",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 17,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1.7,
+									"sizes": []
+								}
+							},
+							"elements": []
+						},
+						{
+							"id": "1000054",
+							"elType": "widget",
+							"widgetType": "button",
+							"settings": {
+								"text": "Book a consultation",
+								"link": {
+									"url": "mailto:hello@konzult.studio",
+									"is_external": "",
+									"nofollow": "",
+									"custom_attributes": ""
+								},
+								"align": "left",
+								"size": "md",
+								"background_color": "#F6F3EC",
+								"button_text_color": "#12150F",
+								"hover_color": "#12150F",
+								"button_background_hover_color": "#FFFFFF",
+								"border_radius": {
+									"unit": "px",
+									"top": "2",
+									"right": "2",
+									"bottom": "2",
+									"left": "2",
+									"isLinked": true
+								},
+								"text_padding": {
+									"unit": "px",
+									"top": "17",
+									"right": "26",
+									"bottom": "17",
+									"left": "28",
+									"isLinked": false
+								},
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 15,
+									"sizes": []
+								},
+								"typography_font_weight": "500"
+							},
+							"elements": []
+						},
+						{
+							"id": "1000055",
+							"elType": "widget",
+							"widgetType": "text-editor",
+							"settings": {
+								"editor": "<p>Or call <a href=\"tel:+442079460123\" style=\"color:#F6F3EC\">+44 20 7946 0123</a></p>",
+								"text_color": "rgba(246,243,236,0.5)",
+								"typography_typography": "custom",
+								"typography_font_family": "Inter",
+								"typography_font_size": {
+									"unit": "px",
+									"size": 13,
+									"sizes": []
+								},
+								"typography_line_height": {
+									"unit": "em",
+									"size": 1.5,
+									"sizes": []
+								}
+							},
+							"elements": []
+						}
+					],
+					"isInner": true
+				}
+			],
+			"isInner": false
+		}
+	],
+	"page_settings": [],
+	"version": "0.4",
+	"title": "Konzult — Home",
+	"type": "page"
+}
