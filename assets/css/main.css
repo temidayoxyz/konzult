@@ -2343,3 +2343,15 @@ hr {
 	}
 }
 
+@media (max-width: 1099px) {
+	.k-hero__grid {
+		grid-template-columns: 1fr 0.82fr;
+		gap: 3rem;
+	}
+
+	.k-service__main {
+		grid-template-columns: 1fr;
+		gap: 0.5rem;
+	}
+}
+
